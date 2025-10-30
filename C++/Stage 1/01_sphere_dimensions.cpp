@@ -17,7 +17,7 @@ int main() {
     double surfaceArea = getSurfaceArea(radius);
     double volume = getVolume(radius);
 
-    cout << fixed << setprecision(2);
+    cout << fixed << setprecision(4);
     cout << "Surface Area: " << surfaceArea << endl;
     cout << "Volume: " << volume << endl;
 
